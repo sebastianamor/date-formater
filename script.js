@@ -20,7 +20,7 @@ dateOptionsSelectElement.addEventListener("change", () => {
             .join("-");
           break;
         case "mm-dd-yyyy-h-mm":
-          currentDateParagraph.textContent = `${month}-${day}-${year} ${hours} Hours ${minutes} Minutes`;
+          currentDateParagraph.textContent = `${month}-${day}-${year} ${hours} 時間 ${minutes} 分`;
           break;
           default:
          currentDateParagraph.textContent = formattedDate
