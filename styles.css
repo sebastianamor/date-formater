@@ -7,14 +7,14 @@
 }
 
 :root {
-  --dark-grey: #0a0a23;
-  --white: #ffffff;
-  --yellow: #f1be32;
+  --ligth-blue: #0d6eec;
+  --white: #edf2f3;
+  --ligth-green: #2ce91b;
 }
 
 body {
   color: var(--white);
-  background-color: var(--dark-grey);
+  background-color: var(--ligth-blue);
 }
 
 .title-container {
@@ -38,7 +38,7 @@ body {
   margin: auto;
   width: 150px;
   height: 10px;
-  background-color: var(--yellow);
+  background-color: var(--ligth-green);
 }
 
 .dropdown-container {
@@ -57,7 +57,7 @@ select {
   cursor: pointer;
   background-color: var(--white);
   border: none;
-  color: var(--dark-grey);
+  color: var(--ligth-blue);
   appearance: none;
   padding: 10px;
   padding-right: 38px;
@@ -80,7 +80,7 @@ select {
 
 .select-icon svg.icon {
   transition: fill 0.3s ease;
-  fill: var(--dark-grey);
+  fill: var(--ligth-blue);
 }
 
 #current-date {
